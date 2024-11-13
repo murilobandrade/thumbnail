@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="thumbnail",
-    version="1.5",
+    version="1.5.1",
     author="Anshul Kharb",
     author_email="hey@anshulkharb.com",
     description="Thumbnail/Preview generator for 450 different filetypes in python.",
