@@ -30,7 +30,7 @@ def generate_thumbnail(input, output, options):
     else:
         options = {}
     
-    input_ext = os.path.splitext(input)[1].replace('.', '')
+    input_ext = os.path.splitext(input)[1].replace('.', '').lower()
     output_ext = os.path.splitext(output)[1].replace('.', '')
 
     def has_key(dict, key):
